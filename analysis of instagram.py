@@ -26,7 +26,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 # In[2]:
 
 
-df = pd.read_csv(r"C:\Users\hplap\Downloads\Requirements (1)\Instagram.csv", encoding='latin1')
+df = pd.read_csv(r"Instagram.csv", encoding='latin1')
 df.head()
 
 
@@ -38,7 +38,7 @@ df=df.dropna()
 df.describe
 
 
-# # Analyzing instagram reach
+# Analyzing instagram Reach
 
 # In[4]:
 
